@@ -794,7 +794,7 @@ def generate_pdf_report(user_id):
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sahin@Neel00",
+        password="create_your_password",
         database="fintrack_database"
     )
     cursor = conn.cursor()

@@ -5,7 +5,7 @@ def create_database():
     conn = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sahin@Neel00"
+        password="create_your_password"
     )
     cursor = conn.cursor()
     cursor.execute("CREATE DATABASE IF NOT EXISTS fintrack_database;")
@@ -18,7 +18,7 @@ def get_db_connection():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="Sahin@Neel00",
+        password="create_your_password",
         database="fintrack_database"
     )
 
